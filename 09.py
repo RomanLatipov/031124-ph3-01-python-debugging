@@ -8,9 +8,10 @@ def create_new_person(name_param:str, age_param:int):
 def remove_person(person:dict):
     people.remove(person)
 
+
 sakib = create_new_person('Sakib', 15)
 chett = create_new_person('Chett', 101)
 
-remove_person(sakib)
+remove_person(people[0])
 
 print( people )
